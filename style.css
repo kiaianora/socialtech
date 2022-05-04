@@ -753,12 +753,15 @@ PC用のスタイル
 
   #aboutus2 {
     width: 100%;
-    margin: 20px;
   }
+
+  
 
   .about-h2 {
     color: #2710d5;
     font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   .about-h2::after {
@@ -778,6 +781,7 @@ PC用のスタイル
   
   .culture2-img2 {
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 100%;
   }
   
@@ -791,7 +795,7 @@ PC用のスタイル
   .culture2-num {
     font-size: 80px;
     color: #2710d5;
-    margin: 0 20px 0 0;
+    margin: 0 20px 0 20px;
   }
   
   /* 組織文化英語 */
@@ -855,12 +859,14 @@ PC用のスタイル
 
   #vision2 {
     width: 100%;
-    margin: 20px;
+    margin-bottom: 50px;
   }
 
   .vision-h2 {
     color: #2710d5;
     font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   .vision-h2::after {
@@ -881,6 +887,7 @@ PC用のスタイル
     height: 300px;
     margin-bottom: 30px;
     position: relative;
+    margin-left: 20px;
   }
 
   .vision2-box > img {
@@ -962,12 +969,13 @@ PC用のスタイル
   /* 会社概要 */
   #company2 {
     width: 100%;
-    margin: 20px;
+    margin-bottom: 50px;
   }
 
   .company-h2 {
     color: #2710d5;
     font-size: 40px;
+    margin-left: 20px;
     margin-bottom: 20px;
   }
 

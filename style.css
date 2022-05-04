@@ -613,7 +613,8 @@ PC用のスタイル
     margin: 0;
   }
 
-  /* プロダクトページ */
+  /* product.html用スタイル */
+  /* プロダクトのメインビジュアル */
   #product-main {
     height: 496px;
     width: 100%;
@@ -707,6 +708,431 @@ PC用のスタイル
     font-size: 28px;
     margin: 0;
   }
+
+
+  /* about.html用スタイル */
+  /* アバウトのメインビジュアル */
+  #about-main {
+    height: 496px;
+    width: 100%;
+    background-image: url("images/mission/mission-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  #about-title {
+    background-color: #2710d5;
+    width: 368px;
+    color: #ffffff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+
+  #about-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+    white-space: nowrap;
+  }
+
+  #about-title > span {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 26px;
+  }
+
+  #about-title > div {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+  }
+
+  #aboutus2 {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .about-h2 {
+    color: #2710d5;
+    font-size: 40px;
+  }
+
+  .about-h2::after {
+    content: none;
+  }
+
+  /* 3つの組織文化と画像を入れる枠 */
+  #aboutus2 > div {
+   display: flex;
+  }
+  
+  /* 画像 */
+  .culture2-img {
+    width: 100%;
+    align-self: flex-start;
+  }
+  
+  .culture2-img2 {
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  /* 3つの組織文化の表 */
+  .culture2-table {
+    max-width: 500px;
+    margin-right: 50px;
+  }
+  
+  /* 番号 */
+  .culture2-num {
+    font-size: 80px;
+    color: #2710d5;
+    margin: 0 20px 0 0;
+  }
+  
+  /* 組織文化英語 */
+  .culture2-en {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+  }
+  
+  /* 組織文化日本語 */
+  .culture2-jp {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* 説明文 */
+  .culture2-description {
+    margin: 0;
+  }
+
+  /* vision.html用スタイル */
+  /* ヴィジョンのメインビジュアル */
+  #vision-main {
+    height: 496px;
+    width: 100%;
+    background-image: url("images/mission/mission-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  #vision-title {
+    background-color: #2710d5;
+    width: 368px;
+    color: #ffffff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+
+  #vision-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+  }
+
+  #vision-title > span {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 26px;
+  }
+
+  #vision-title > div {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+  }
+
+  #vision2 {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .vision-h2 {
+    color: #2710d5;
+    font-size: 40px;
+  }
+
+  .vision-h2::after {
+    content: none;
+  }
+
+  /* セクション内の外枠 */
+  #vision2 > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  /* 7つの行動指針の枠 */
+  .vision2-box {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .vision2-box > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+  }
+
+  .vision2-box > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 31;
+    margin-right: 20px;
+  }
+
+  .vision2-box > span > h4 {
+    color: #2710d5;
+    font-size: 24px;
+    margin: 80px 0 0 0;
+  }
+
+  .vision2-box > span > h4::first-letter {
+    font-size: 40px;
+  }
+
+  .vision2-box > span > h5 {
+    font-size: 20px;
+    margin: 0 0 0 0;
+  }
+
+  .vision2-box > span > p {
+    margin: 10px 0 0 0;
+  }
+
+  /* company.html用スタイル */
+  /* カンパ二ーのメインビジュアル */
+  #company-main {
+    height: 496px;
+    width: 100%;
+    background-image: url("images/mission/mission-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  #company-title {
+    background-color: #2710d5;
+    width: 368px;
+    color: #ffffff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+
+  #company-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+  }
+
+  #company-title > span {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 26px;
+  }
+
+  #company-title > div {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+  }
+
+  /* 会社概要 */
+  #company2 {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .company-h2 {
+    color: #2710d5;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .company-h2::after {
+    content: none;
+  }
+
+  #company2-table {
+    width: 100%;
+  }
+
+  .tableheader2 {
+    text-align: left;
+    padding: 20px;
+    border-bottom-color: #2710d5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 150px;
+  }
+
+  .tableheader2-first {
+    text-align: left;
+    padding: 20px;
+    border-bottom-color: #2710d5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-top-color: #2710d5;
+    border-top-width: 1px;
+    border-top-style: solid;
+    width: 150px;
+  }
+
+  .cell2 {
+    padding: 30px;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+
+  .cell2-first {
+    padding: 30px;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-top-color: #ececec;
+    border-top-width: 1px;
+    border-top-style: solid;
+  }
+
+  #company2 > iframe {
+    width: 100%;
+    height: 368px;
+    margin: 40px 0 0 0;
+  }
+
+  /* contact.html用スタイル */
+  /* お問い合わせのメインビジュアル */
+  #contact-main {
+    height: 496px;
+    width: 100%;
+    background-image: url("images/mission/mission-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  #contact-title {
+    background-color: #2710d5;
+    width: 368px;
+    color: #ffffff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+
+  #contact-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+  }
+
+  #contact-title > span {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 26px;
+  }
+
+  #contact-title > div {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+  }
+
+  #contact2 {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .contact-h2 {
+    color: #2710d5;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .contact-h2::after {
+    content: none;
+  }
+
+  /* 外枠 */
+  #contact2 > form > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+  }
+
+  /* 左列の見出し */
+  .contact2-heading {
+    width: 240px;
+    align-self: center;
+  }
+
+  /* 見出しのラベル */
+  .contact2-label {
+    width: 200px;
+    font-weight: bold;
+  }
+
+  /* 必須 */
+  .contact2-span {
+    color: #ce2222;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+  }
+
+  /* テキストボックス */
+  .contact2-textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 56px;
+  }
+
+  /* お問い合わせ内容のテキストエリア */
+  .contact2-textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 200px;
+  }
+
+
+
 }
 
 /*====================
@@ -1023,7 +1449,7 @@ PC用のスタイル
     border-top-color: #2710d5;
     border-top-width: 1px;
     border-top-style: solid;
-    width: 50%;
+    width: 30%;
   }
 
   .tableheader {
@@ -1032,7 +1458,7 @@ PC用のスタイル
     border-bottom-color: #2710d5;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    width: 50%;
+    width: 30%;
   }
 
   .cell {
@@ -1270,14 +1696,15 @@ PC用のスタイル
     margin: 0;
   }
 
-  /* プロダクトページ */
+  /* product.html用スタイル */
+  /* プロダクトのメインビジュアル */
   #product-main {
     height: 256px;
     width: 100%;
     background-image: url("images/product/product-main.png");
     background-repeat: no-repeat;
     background-position-y: center;
-    background-size: auto 208px auto 208px;
+    background-size: auto 200px;
   }
 
   #product-title {
@@ -1345,4 +1772,422 @@ PC用のスタイル
     font-size: 28px;
     margin: 0;
   }
+
+  /* sboutus.html用スタイル */
+  /* アバウトのメインビジュアル */
+  #about-main{
+    height: 256px;
+    width: 100%;
+    background-image: url("images/mission/mission-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: auto 200px;
+  }
+
+  #about-title {
+    background-color: #2710d5;
+    width: 136px;
+    color: #ffffff;
+    height: 256px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  #about-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 40px;
+  }
+
+  #about-title > span {
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    font-size: 18px;
+  }
+
+  #about-title > div {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-size: 13px;
+  }
+
+  #aboutus2 {
+    margin: 20px;
+  }
+
+  .about-h2 {
+    color: #2710d5;
+    font-size: 38px;
+    margin: 0;
+  }
+
+  .about-h2::after {
+    content: none;
+  }
+
+  #aboutus2 > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .culture2-table {
+    width: 100%;
+    padding-right: 20px;
+    order: 2;
+  }
+
+  .culture2-img {
+    width: 100%;
+    order: 1;
+  }
+
+  .culture2-img2 {
+    width: 100%;
+  }
+
+  .culture2-num {
+    font-size: 80px;
+    color: #2710d5;
+  }
+
+  .culture2-en {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+  }
+
+  .culture2-jp {
+    display: block;
+  }
+
+  .culture2-description {
+    margin: 0;
+  }
+
+  /* vision.html用スタイル */
+  /* ビジョンのメインビジュアル */
+  #vision-main{
+    height: 256px;
+    width: 100%;
+    background-image: url("images/mission/mission-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: auto 200px;
+  }
+
+  #vision-title {
+    background-color: #2710d5;
+    width: 136px;
+    color: #ffffff;
+    height: 256px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+
+  #vision-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 40px;
+  }
+
+  #vision-title > span {
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    font-size: 18px;
+  }
+
+  #vision-title > div {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-size: 13px;
+  }
+
+  #vision2 {
+    margin: 20px;
+  }
+
+  .vision-h2 {
+    color: #2710d5;
+    font-size: 38px;
+    margin: 0;
+  }
+
+  .vision-h2::after {
+    content: none;
+  }
+
+  .vision2-box {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .vision2-box > img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+  }
+
+  .vision2-box > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 31;
+    margin-right: 20px;
+  }
+
+  .vision2-box > span > h4 {
+    color: #2710d5;
+    font-size: 24px;
+    margin: 60px 0 0 0;
+    white-space: nowrap;
+  }
+
+  .vision2-box > span > h5 {
+    font-size: 20px;
+    margin: 0 0 0 0;
+  }
+
+  .vision2-box > span > p {
+    margin: 10px 0 0 0;
+  }
+
+  /* company.html用スタイル */
+  /* ビジョンのメインビジュアル */
+  #company-main{
+    height: 256px;
+    width: 100%;
+    background-image: url("images/mission/mission-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: auto 200px;
+  }
+
+  #company-title {
+    background-color: #2710d5;
+    width: 136px;
+    color: #ffffff;
+    height: 256px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+
+  #company-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 40px;
+  }
+
+  #company-title > span {
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    font-size: 18px;
+  }
+
+  #company-title > div {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-size: 13px;
+  }
+
+  /* 会社概要 */
+  #company2 {
+    margin: 20px;
+  }
+
+  .company-h2 {
+    color: #2710d5;
+    font-size: 38px;
+    margin: 0 0 20px 0;
+  }
+
+  .company-h2::after {
+    content: none;
+  }
+
+  #company > table {
+    width: 100%;
+  }
+
+  .tableheader2-first {
+    text-align: left;
+    padding: 20px;
+    border-bottom-color: #2710d5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-top-color: #2710d5;
+    border-top-width: 1px;
+    border-top-style: solid;
+    width: 30%;
+  }
+
+  .tableheader2 {
+    text-align: left;
+    padding: 20px;
+    border-bottom-color: #2710d5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 30%;
+  }
+
+  .cell2 {
+    padding: 20px;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+
+  .cell2-first {
+    padding: 20px;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-top-color: #ececec;
+    border-top-width: 1px;
+    border-top-style: solid;
+  }
+
+  #company2 > iframe {
+    width: 100%;
+    height: 240px;
+    margin: 40px 0 0 0;
+  }
+
+  /* contact.html用スタイル */
+  /* コンタクトのメインビジュアル */
+  #contact-main{
+    height: 256px;
+    width: 100%;
+    background-image: url("images/mission/mission-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: auto 200px;
+  }
+
+  #contact-title {
+    background-color: #2710d5;
+    width: 136px;
+    color: #ffffff;
+    height: 256px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+
+  #contact-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 40px;
+  }
+
+  #contact-title > span {
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    font-size: 18px;
+  }
+
+  #contact-title > div {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-size: 13px;
+  }
+
+  #contact2 {
+    margin: 20px;
+  }
+  
+  .contact-h2 {
+    color: #2710d5;
+    font-size: 38px;
+    margin: 0 0 20px 0;
+  }
+  
+  .contact-h2::after {
+    content: none;
+  }
+
+  #contact2 > form > div {
+    margin-bottom: 20px;
+  }
+  
+  .contact2-heading {
+    margin-bottom: 20px;
+  }
+  
+  /* ラベル */
+  .contact2-label {
+    width: 200px;
+    font-weight: bold;
+  }
+  
+  /* 必須 */
+  .contact2-span {
+    color: #ce2222;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+  }
+  
+  .contact2-textbox {
+    height: 56px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fafafa;
+    border-bottom-color: #707070;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    min-width: 300px;
+    width: 100%;
+  }
+  
+  .contact2-textarea {
+    height: 150px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fafafa;
+    width: 100%;
+  }
+  
+  .radiobutton2 {
+    margin-bottom: 20px;
+  }
+  
+  .radiobutton2 + label::after {
+    content: "\A";
+    white-space: pre;
+  }
+
+    /* 個人情報の取り扱い */
+    details {
+      width: 400px;
+    }
+  
+    details > div {
+      background-color: #fafafa;
+      padding: 20px;
+    }
+  
+    details > span {
+      font-weight: bold;
+    }
+
+   
 }

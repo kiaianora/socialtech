@@ -69,8 +69,8 @@
 
     <main>
       <article>
-        <section id="mission-main">
-          <div id="mission-title">
+        <section id="contact-main">
+          <div id="contact-title">
             <h1>CONTACT</h1>
             <span>コンタクト</span>
             <div>TOP > CONTACT</div>
@@ -78,9 +78,9 @@
         </section>
 
          <!-- お問い合わせフォーム -->
-         <section id="contact">
-          <h2 class="index-h2">CONTACT</h2>
-          <h3>お問い合わせ</h3>
+         <section id="contact2">
+          <h2 class="contact-h2">お問い合わせ</h2>
+
           <form action="https://api.staticforms.xyz/submit" method="post">
             <input type="text" name="honeypot" style="display:none">
             <!-- STATIC FORMSのアクセスキー -->
@@ -90,61 +90,62 @@
             <!--送信先のメールアドレスをvalueに設定する-->
             <input type="hidden" name="replyTo" value="kiaianora@kj9.so-net.ne.jp">
             <!--redirectToのURLは公開後のURLへリンクする-->
-            <input type="hidden" name="redirectTo" value="https://kiaianora.github.io/socialtech/index.html">
+            <input type="hidden" name="redirectTo" value="index.html">
+           <!-- <input type="hidden" name="redirectTo" value="https://kiaianora.github.io/socialtech/index.html">-->
 
             <div>
-              <div class="contact-heading">
-                <label class="contact-label">お名前<span class="contact-span">必須</span></label>
+              <div class="contact2-heading">
+                <label class="contact2-label">お名前<span class="contact2-span">必須</span></label>
               </div>
-              <div class="contact-form">
-                <input type="text" name="name" placeholder="入力してください"  class="contact-textbox">
-              </div>
-            </div>
-            <div>
-              <div class="contact-heading">
-                <label class="contact-label">フリガナ<span class="contact-span">必須</span></label>
-              </div>
-              <div class="contact-form">
-                <input type="text" name="hurigana" placeholder="入力してください"  class="contact-textbox">
+              <div class="contact2-form">
+                <input type="text" name="name" placeholder="入力してください"  class="contact2-textbox">
               </div>
             </div>
             <div>
-              <div class="contact-heading">
-                <label class="contact-label">メールアドレス<span class="contact-span">必須</span></label>
+              <div class="contact2-heading">
+                <label class="contact2-label">フリガナ<span class="contact2-span">必須</span></label>
+              </div>
+              <div class="contact2-form">
+                <input type="text" name="hurigana" placeholder="入力してください"  class="contact2-textbox">
+              </div>
+            </div>
+            <div>
+              <div class="contact2-heading">
+                <label class="contact2-label">メールアドレス<span class="contact2-span">必須</span></label>
               </div>
               <div>
-                <input type="text" name="email" placeholder="入力してください" class="contact-textbox">
+                <input type="text" name="email" placeholder="入力してください" class="contact2-textbox">
               </div>
             </div>
             <div>
-              <div class="contact-heading">
-                <label class="contact-label">電話番号</label>
+              <div class="contact2-heading">
+                <label class="contact2-label">電話番号</label>
               </div>
               <div>
-                <input type="text" name="tel" placeholder="入力してください" class="contact-textbox">
+                <input type="text" name="tel" placeholder="入力してください" class="contact2-textbox">
               </div>
             </div>
             <div>
-              <div class="contact-heading">
-                <label class="contact-label">お問い合わせ内容<span class="contact-span">必須</span></label>
+              <div class="contact2-heading">
+                <label class="contact2-label">お問い合わせ内容<span class="contact2-span">必須</span></label>
               </div>
               <div>
-                <textarea class="contact-textarea" placeholder="入力してください" name="message"></textarea>
+                <textarea class="contact2-textarea" placeholder="入力してください" name="message"></textarea>
               </div>
             </div>
             <div>
-              <div class="contact-heading">
-                <label class="contact-label">ご希望の連絡先<span class="contact-span">必須</span></label>
+              <div class="contact2-heading">
+                <label class="contact2-label">ご希望の連絡先<span class="contact2-span">必須</span></label>
               </div>
               <div>
-                <input class="radiobutton" type="radio" value="tel" name="contact" checked><label>お電話</label>
-                <input class="radiobutton" type="radio" value="mail" name="contact"><label>メール</label>
-                <input class="radiobutton" type="radio" value="both" name="contact"><label>どちらでも</label>
+                <input class="radiobutton2" type="radio" value="tel" name="contact" checked><label>お電話</label>
+                <input class="radiobutton2" type="radio" value="mail" name="contact"><label>メール</label>
+                <input class="radiobutton2" type="radio" value="both" name="contact"><label>どちらでも</label>
               </div>
             </div>
             <div>
-              <div class="contact-heading">
-                <label class="contact-label">個人情報の取り扱い</label>
+              <div class="contact2-heading">
+                <label class="contact2-label">個人情報の取り扱い</label>
               </div>
               <div>
                 <details>
